@@ -1,6 +1,6 @@
 // /scripts/user-auth.js
 
-import { auth } from "./firebase-config.js";
+import { auth } from "/Soil-Farming-Agent/scripts/firebase-config.js";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword
@@ -37,7 +37,7 @@ registerForm.addEventListener("submit", async (e) => {
     const userCredential = await createUserWithEmailAndPassword(auth, email, password);
     alert("Registration successful!");
     registerForm.reset();
-    window.location.href = "../pages/user.html";
+    window.location.href = "/Soil-Farming-Agent/pages/user.html";
   } catch (error) {
     alert("Registration failed: " + error.message);
   }
@@ -53,7 +53,7 @@ loginForm.addEventListener("submit", async (e) => {
     const userCredential = await signInWithEmailAndPassword(auth, email, password);
     alert("Login successful!");
     loginForm.reset();
-    window.location.href = "../pages/user.html";
+    window.location.href = "/Soil-Farming-Agent/pages/user.html";
   } catch (error) {
     alert("Login failed: " + error.message);
   }

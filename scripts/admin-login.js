@@ -1,6 +1,6 @@
 // /scripts/admin-login.js
 
-import { app, auth } from "./firebase-config.js";
+import { app, auth } from "/Soil-Farming-Agent/scripts/firebase-config.js";
 import { signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 
 const adminEmail = "admin@example.com";

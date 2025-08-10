@@ -1,4 +1,4 @@
-import { db } from '../scripts/firebase-config.js';
+import { db } from '/Soil-Farming-Agent/scripts/firebase-config.js';
 import {
     collection,
     addDoc,

@@ -1,4 +1,4 @@
-import { auth, db } from '../scripts/firebase-config.js';
+import { auth, db } from '/Soil-Farming-Agent/scripts/firebase-config.js';
 import { signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
 import { collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
