@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - Soil Farming Agent</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Register</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="center-content">
+    <form id="registerForm" class="auth-form">
+      <input type="email" id="registerEmail" placeholder="Email" required /><br/>
+      <input type="password" id="registerPassword" placeholder="Password" required /><br/>
+      <button type="submit">Register</button>
+    </form>
+    <p id="registerMessage"></p>
+  </main>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <!-- Firebase config -->
+  <script src="firebase-config.js"></script>
+  <script src="register.js"></script>
+</body>
+</html>
