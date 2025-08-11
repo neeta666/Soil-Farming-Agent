@@ -3,7 +3,7 @@
 This is the web application for the Soil Farming Agent project.
 
 ## Live Demo
-[Click here to view the Firebase-hosted demo](YOUR_FIREBASE_LINK_HERE)
+[Click here to view the Firebase-hosted demo](https://soil-farming-agent-806f2.web.app/)
 
 ## Local Setup
 1. Copy `scripts/firebase-config.example.js` to `scripts/firebase-config.js`.
