@@ -10,7 +10,9 @@ yarn-error.log*
 firebase-debug.log
 
 # Ignore your Firebase config file with API keys
+
 /scripts/firebase-config.js
+
 
 # VS Code settings
 .vscode/
