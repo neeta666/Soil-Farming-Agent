@@ -1,0 +1,34 @@
+# Ignore node-related files if you ever run npm locally
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment/config files (don’t commit API keys or secrets)
+*.env
+.env.*
+firebase-debug.log
+
+# Ignore your Firebase config file with API keys
+/scripts/firebase-config.js
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Cache / temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Build / deployment directories (if you use them later)
+dist/
+build/
+
+# Firebase hosting cache
+.firebase/
